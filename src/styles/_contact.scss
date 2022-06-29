@@ -1,0 +1,136 @@
+.contact {
+  color: $blueDuck;
+  display: grid;
+  grid-template-columns: 20% 50% 30%;
+  align-items: center;
+  justify-items: center;
+  margin-bottom: 2em;
+
+  &__title {
+    @include sectionTitle;
+    color: $blueDuck;
+  }
+
+  &__social {
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 1.5em;
+
+    a {
+      color: $blueDuck;
+    }
+
+    p {
+      font-weight: bold;
+    }
+
+    .mail {
+      text-decoration: underline $yellowMustard;
+    }
+
+    .mail:hover {
+      color: $yellowMustard;
+    }
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1em;
+
+    input {
+      margin-bottom: 2em;
+      height: 4vh;
+      width: 35vw;
+      border-bottom: solid 1px $blueDuck;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+    }
+
+    input::placeholder {
+      color: $blueDuck;
+    }
+
+    textarea {
+      height: 16vh;
+      background-color: $blueDuck;
+    }
+
+    textarea::placeholder {
+      color: white;
+    }
+
+    textarea:focus {
+      color: white;
+    }
+
+    button {
+      width: 10vw;
+      margin-top: 1.7em;
+      height: 4vh;
+      background-color: $yellowMustard;
+      color: $blueDuck;
+      font-weight: 800;
+      border: none;
+    }
+
+    button:hover {
+      background-color: white;
+      cursor: pointer;
+      color: $blueDuck;
+      border: solid 1px $blueDuck;
+    }
+  }
+
+  &__logos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+  }
+
+  &__logosImg {
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      width: 2em;
+      margin: 1.5em;
+    }
+  }
+}
+
+// Media queries
+@media screen and (max-width: 700px) {
+  .contact {
+    display: flex;
+    flex-direction: column;
+
+    &__title {
+      @include sectionTitleMobile;
+      color: $blueDuck;
+      margin-top: 2em;
+      margin-bottom: 2em;
+    }
+
+    &__social {
+      text-align: center;
+      font-size: 1em;
+    }
+
+    &__logos {
+      margin-top: 2em;
+      font-size: 0.8em;
+
+      img {
+        width: 2em;
+        margin-right: 1em;
+        margin-left: 1em;
+      }
+    }
+  }
+}

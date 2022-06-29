@@ -1,0 +1,41 @@
+// FONTS
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+@font-face {
+  font-family: "Gobold Thin Light";
+  src: url("../fonts/Gobold_Light.eot?") format("eot"),
+    url("../fonts/Gobold_Light.woff") format("woff"),
+    url("../fonts/Gobold_Light.ttf") format("truetype"),
+    url("../fonts/Gobold_Light.svg#GoboldThinLight") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+$principalFont: "Open Sans";
+$titleFont: "Gobold Thin Light";
+
+// COLORS
+$greyNavbar: #cccccc;
+$yellowMustard: #bfa733;
+$blueDuck: rgb(26, 83, 92);
+
+// TITLES
+@mixin sectionTitle {
+  font-family: $titleFont;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  font-weight: bold;
+  font-size: 1.8em;
+  padding-top: 0.8em;
+  padding-bottom: 0.8em;
+}
+
+@mixin sectionTitleMobile {
+  font-family: $titleFont;
+  font-weight: bold;
+  font-size: 1.2em;
+  padding-top: 0.8em;
+  padding-bottom: 0.8em;
+  letter-spacing: 0.2rem;
+  writing-mode: horizontal-tb;
+  text-orientation: sideways;
+}

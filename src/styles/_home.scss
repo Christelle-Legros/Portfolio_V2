@@ -1,0 +1,32 @@
+.home {
+  text-align: center;
+  height: 100vh;
+
+  img {
+    width: 27em;
+    transform: translateY(-135%);
+  }
+
+  &__backvideo video {
+    width: 98.9vw;
+    height: 100vh;
+    object-fit: fill;
+  }
+}
+// Media queries
+@media screen and (max-width: 700px) {
+  .home {
+    height: 100%;
+    background-color: $blueDuck;
+    img {
+      margin-top: 4em;
+      margin-bottom: 4em;
+      max-width: 80vw;
+      transform: translateY(0);
+    }
+
+    &__backvideo {
+      display: none;
+    }
+  }
+}

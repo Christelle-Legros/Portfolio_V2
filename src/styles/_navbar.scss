@@ -1,0 +1,51 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 0.2em;
+  padding-bottom: 0.1em;
+  width: 100%;
+  background-color: $blueDuck;
+  position: fixed;
+  border-bottom: dotted 0.1px $greyNavbar;
+  z-index: 1;
+
+  &__logo {
+    height: 7vh;
+    margin-left: 0.6em;
+  }
+
+  &__list {
+    display: flex;
+    align-items: center;
+    ul {
+      display: flex;
+      align-items: center;
+      list-style: none;
+
+      li a {
+        padding-left: 2em;
+        padding-right: 2em;
+        color: $greyNavbar;
+      }
+
+      li:hover {
+        transform: scaleX(1.2);
+        transition: 0.3s ease-out;
+      }
+
+      li a:hover {
+        color: $yellowMustard;
+      }
+    }
+  }
+}
+
+// Media queries
+@media screen and (max-width: 700px) {
+  .navbar {
+    font-size: 0.8em;
+    &__logo {
+      display: none;
+    }
+  }
+}
