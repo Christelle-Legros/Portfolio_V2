@@ -14,37 +14,30 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    const templateId = "template_abswtrl";
-    const serviceId = "gmail_portfolio";
+    const serviceId = process.env.REACT_APP_SERVICE_ID;
+    const templateId = process.env.REACT_APP_TEMPLATE_ID;
+    const apiKey = process.env.REACT_APP_API_KEY;
 
-    // emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, form.current, process.env.REACT_APP_USER_ID)
-    emailjs
-      .sendForm(
-        serviceId,
-        templateId,
-        form.current,
-        "user_IvABAggCj2YTAQioXSYf8"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-          toast.success(
-            "Merci pour votre message, je vous réponds dès que possible !",
-            {
-              position: toast.POSITION.BOTTOM_RIGHT,
-            }
-          );
-          setUsername("");
-          setEmail("");
-          setMessage("");
-        },
-        (error) => {
-          console.log(error.text);
-          toast.error("Le formulaire n'a pas pu être envoyé !", {
-            position: toast.POSITION.BOTTOM_CENTER,
-          });
-        }
-      );
+    emailjs.sendForm(serviceId, templateId, form.current, apiKey).then(
+      (result) => {
+        console.log(result.text);
+        toast.success(
+          "Merci pour votre message, je vous réponds dès que possible !",
+          {
+            position: toast.POSITION.BOTTOM_RIGHT,
+          }
+        );
+        setUsername("");
+        setEmail("");
+        setMessage("");
+      },
+      (error) => {
+        console.log(error.text);
+        toast.error("Le formulaire n'a pas pu être envoyé !", {
+          position: toast.POSITION.BOTTOM_CENTER,
+        });
+      }
+    );
   };
 
   return (
