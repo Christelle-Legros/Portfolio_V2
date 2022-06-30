@@ -25,6 +25,7 @@ const Contact = () => {
           "Merci pour votre message, je vous réponds dès que possible !",
           {
             position: toast.POSITION.BOTTOM_RIGHT,
+            theme: "colored",
           }
         );
         setUsername("");
@@ -35,6 +36,7 @@ const Contact = () => {
         console.log(error.text);
         toast.error("Le formulaire n'a pas pu être envoyé !", {
           position: toast.POSITION.BOTTOM_CENTER,
+          theme: "colored",
         });
       }
     );
