@@ -122,6 +122,18 @@
       font-size: 1em;
     }
 
+    &__form {
+      input {
+        width: 85vw;
+      }
+
+      button {
+        width: 85vw;
+        margin-top: 1.7em;
+        height: 4vh;
+      }
+    }
+
     &__logos {
       margin-top: 2em;
       font-size: 0.8em;

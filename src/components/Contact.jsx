@@ -45,7 +45,7 @@ const Contact = () => {
       <p className="contact__title">Contact</p>
 
       <div className="contact__social">
-        <p>Pour m'écrire :</p>
+        <p>Ecrivez-moi !</p>
         <form ref={form} className="contact__form" onSubmit={sendEmail}>
           <input
             type="text"
