@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio_V2/static/css/main.ea7ab237.css",
+    "main.css": "/Portfolio_V2/static/css/main.204dee94.css",
     "main.js": "/Portfolio_V2/static/js/main.6ad84337.js",
     "static/media/UrsuiaLever.mp4": "/Portfolio_V2/static/media/UrsuiaLever.d732fe4eb7e9d0aa1333.mp4",
     "static/media/cv_2022.pdf": "/Portfolio_V2/static/media/cv_2022.c4a50d5d31bf06596bb3.pdf",
@@ -15,11 +15,11 @@
     "static/media/Gobold_Light.ttf": "/Portfolio_V2/static/media/Gobold_Light.1cb2e63ea3992b472bd4.ttf",
     "static/media/Gobold_Light.woff": "/Portfolio_V2/static/media/Gobold_Light.a0f35cde58ea4f41182b.woff",
     "index.html": "/Portfolio_V2/index.html",
-    "main.ea7ab237.css.map": "/Portfolio_V2/static/css/main.ea7ab237.css.map",
+    "main.204dee94.css.map": "/Portfolio_V2/static/css/main.204dee94.css.map",
     "main.6ad84337.js.map": "/Portfolio_V2/static/js/main.6ad84337.js.map"
   },
   "entrypoints": [
-    "static/css/main.ea7ab237.css",
+    "static/css/main.204dee94.css",
     "static/js/main.6ad84337.js"
   ]
 }
