@@ -9,17 +9,6 @@ const About = () => {
       <p className="about__title">Qui suis-je ?</p>
       <div className="about__text">
         <p>
-          {/* <TypeWriterEffect
-            textStyle={{ fontSize: "1em" }}
-            startDelay={100}
-            cursorColor="black"
-            text="Après 21 années en tant qu'assistante du service technique d'un
-            laboratoire pharmaceutique au Pays-Basque, il était temps de donner un
-            nouveau souffle à ma carrière, dans un domaine qui me fait vibrer
-            depuis toujours : l'informatique."
-            typeSpeed={100}
-            // scrollArea={myAppRef}
-          /> */}
           Après 21 années en tant qu'assistante du service technique d'un
           laboratoire pharmaceutique au Pays-Basque, il était temps de donner un
           nouveau souffle à ma carrière, dans un domaine qui me fait vibrer
@@ -32,8 +21,6 @@ const About = () => {
           Au sein de la Wild Code School, je suis une formation aussi intense et
           exigeante que passionnante.
         </p>
-        <br />
-        <p>La suite, c'est avec vous que je vais l'écrire...</p> <br />
         <p>
           Les technologies que j'utilise :
           <ul>
@@ -56,6 +43,19 @@ const About = () => {
           Mais bien évidemment, je suis prête à travailler sur toute nouvelle
           technologie !
         </p>
+        <br />
+        <TypeWriterEffect
+          textStyle={{
+            fontSize: "1em",
+            fontWeight: "300",
+            textAlign: "justify",
+          }}
+          startDelay={100}
+          cursorColor="black"
+          text="La suite, c'est avec vous que je vais l'écrire..."
+          typeSpeed={80}
+          // scrollArea={myAppRef}
+        />
       </div>
       <div className="about__cvVisuel">
         <a href={cv} target="_blank" rel="noreferrer">
