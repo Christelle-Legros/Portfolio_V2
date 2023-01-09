@@ -9,8 +9,7 @@ const About = () => {
       <p className="about__title">Qui suis-je ?</p>
       <div className="about__text">
         <p>
-          Après 21 années en tant qu'assistante du service technique d'un
-          laboratoire pharmaceutique au Pays-Basque, il était temps de donner un
+          Après 21 années dans l'administratif, il était temps de donner un
           nouveau souffle à ma carrière, dans un domaine qui me fait vibrer
           depuis toujours : l'informatique.
         </p>
@@ -26,7 +25,7 @@ const About = () => {
           <ul>
             <li>
               <span className="subtitles">Côté frontend :</span> HTML - CSS et
-              SASS - Javascript - ReactJs
+              SASS - Javascript - ReactJs - WorPress
             </li>
             <li>
               <span className="subtitles">Côté backend : </span>MySql - Express
@@ -40,8 +39,10 @@ const About = () => {
         </p>{" "}
         <br />
         <p>
-          Mais bien évidemment, je suis prête à travailler sur toute nouvelle
-          technologie !
+          Mon expérience en développement ne joue peut-être pas en ma faveur.
+          Mais j'ai travaillé dur jusque là, je continue à apprendre et bien
+          encadrée par un sénior, je m'impliquerai totalement afin de monter
+          rapidement en compétence !
         </p>
         <br />
         <TypeWriterEffect

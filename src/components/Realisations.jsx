@@ -2,6 +2,7 @@ import React from "react";
 import WwqVisuel from "../assets/WwqVisuel.png";
 import LiveUpVisuel from "../assets/LiveUpVisuel.png";
 import LuneticVisuel from "../assets/LuneticVisuel.png";
+import ClWebVisuel from "../assets/ClWebVisuel.png";
 
 const Realisations = () => {
   return (
@@ -46,6 +47,19 @@ const Realisations = () => {
             <p>
               Projet 3 Wild Code School : création d'un site fullstack avec
               utilisation de ReactJs, Typescript, Express, MySql, Sass.
+            </p>
+          </a>
+        </div>
+
+        <div className="realisations__projects" id="clwebProject">
+          <a
+            href="https://christellelegros-web.fr/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={ClWebVisuel} alt="Screenshot ClWeb" />
+            <p>
+              Création d'un site vitrine en utilisant WordPress (Elementor).
             </p>
           </a>
         </div>
