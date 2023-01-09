@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/Portfolio_V2/static/css/main.204dee94.css",
-    "main.js": "/Portfolio_V2/static/js/main.6ad84337.js",
+    "main.js": "/Portfolio_V2/static/js/main.106453cd.js",
     "static/media/UrsuiaLever.mp4": "/Portfolio_V2/static/media/UrsuiaLever.d732fe4eb7e9d0aa1333.mp4",
-    "static/media/cv_2022.pdf": "/Portfolio_V2/static/media/cv_2022.c4a50d5d31bf06596bb3.pdf",
+    "static/media/ClWebVisuel.png": "/Portfolio_V2/static/media/ClWebVisuel.2dc7d7b8427e9c2a9f48.png",
+    "static/media/cv_2022.pdf": "/Portfolio_V2/static/media/cv_2022.23ed3eb063bff3163349.pdf",
     "static/media/LiveUpVisuel.png": "/Portfolio_V2/static/media/LiveUpVisuel.22bd115b760e96f03a49.png",
     "static/media/LuneticVisuel.png": "/Portfolio_V2/static/media/LuneticVisuel.1c61a1b9b40f2acfd88c.png",
     "static/media/WwqVisuel.png": "/Portfolio_V2/static/media/WwqVisuel.956ae9093116a60fdf30.png",
@@ -16,10 +17,10 @@
     "static/media/Gobold_Light.woff": "/Portfolio_V2/static/media/Gobold_Light.a0f35cde58ea4f41182b.woff",
     "index.html": "/Portfolio_V2/index.html",
     "main.204dee94.css.map": "/Portfolio_V2/static/css/main.204dee94.css.map",
-    "main.6ad84337.js.map": "/Portfolio_V2/static/js/main.6ad84337.js.map"
+    "main.106453cd.js.map": "/Portfolio_V2/static/js/main.106453cd.js.map"
   },
   "entrypoints": [
     "static/css/main.204dee94.css",
-    "static/js/main.6ad84337.js"
+    "static/js/main.106453cd.js"
   ]
 }
