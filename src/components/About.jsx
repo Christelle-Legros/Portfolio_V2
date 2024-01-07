@@ -1,6 +1,6 @@
 import React from "react";
-import cvVisuel from "../assets/cvVisuel22.png";
-import cv from "../assets/cv_2022.pdf";
+import cvVisuel from "../assets/cvVisuel23.png";
+import cv from "../assets/cv_2023.pdf";
 import TypeWriterEffect from "react-typewriter-effect";
 
 const About = () => {
@@ -25,7 +25,7 @@ const About = () => {
           <ul>
             <li>
               <span className="subtitles">Côté frontend :</span> HTML - CSS et
-              SASS - Javascript - ReactJs - WorPress
+              SASS - Javascript - ReactJs - WordPress
             </li>
             <li>
               <span className="subtitles">Côté backend : </span>MySql - Express
@@ -55,7 +55,6 @@ const About = () => {
           cursorColor="black"
           text="La suite, c'est avec vous que je vais l'écrire..."
           typeSpeed={80}
-          // scrollArea={myAppRef}
         />
       </div>
       <div className="about__cvVisuel">

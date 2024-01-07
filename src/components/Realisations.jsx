@@ -3,13 +3,61 @@ import WwqVisuel from "../assets/WwqVisuel.png";
 import LiveUpVisuel from "../assets/LiveUpVisuel.png";
 import LuneticVisuel from "../assets/LuneticVisuel.png";
 import ClWebVisuel from "../assets/ClWebVisuel.png";
+import QuizDepartementsVisuel from "../assets/QuizDepartementsVisuel.png";
+import Coverflow from "react-coverflow";
 
-const Realisations = () => {
+const Realisations = (url) => {
   return (
     <div className="realisations" id="realisations">
       <p className="realisations__title">Mes réalisations</p>
       <div className="realisations__projectsContainer">
-        <div className="realisations__projects" id="realisations__wwqProject">
+        {/* carrousel */}
+        <Coverflow
+          className="carrousel"
+          width="1100"
+          height="800"
+          displayQuantityOfSide={2}
+          navigation={false}
+          enableScroll={true}
+          clickable={true}
+          active={0}
+          infiniteScroll={true}
+          media={{
+            "@media (max-width: 900px)": {
+              width: "auto",
+              height: "300px",
+            },
+            "@media (min-width: 900px)": {
+              width: "auto",
+              height: "600px",
+            },
+          }}
+        >
+          <img
+            src={LiveUpVisuel}
+            alt="Live Up"
+            data-action="https://christelle-legros.github.io/Liveup/#/"
+          />
+          <img
+            src={LuneticVisuel}
+            alt="Lunetic"
+            data-action="https://lunetic.fr/"
+          />
+          <img
+            src={WwqVisuel}
+            alt="World Wild Quiz"
+            data-action="https://christelle-legros.github.io/WorldWildQuiz/#/"
+          />
+          <img src={ClWebVisuel} alt="CLWeb" />
+          <img
+            src={QuizDepartementsVisuel}
+            alt="Quiz departements"
+            data-action="https://departements-quiz.netlify.app/"
+          />
+        </Coverflow>
+        {/* , document.querySelector('.content') ); */}
+        {/* VERSION 1 */}
+        {/* <div className="realisations__projects" id="realisations__wwqProject">
           <a
             href="https://christelle-legros.github.io/WorldWildQuiz/#/"
             target="_blank"
@@ -23,7 +71,6 @@ const Realisations = () => {
             </p>
           </a>
         </div>
-
         <div
           className="realisations__projects"
           id="realisations__liveUpProject"
@@ -40,7 +87,6 @@ const Realisations = () => {
             </p>
           </a>
         </div>
-
         <div className="realisations__projects" id="luneticProject">
           <a href="https://lunetic.fr/" target="_blank" rel="noreferrer">
             <img src={LuneticVisuel} alt="Screenshot Lunetic" />
@@ -50,7 +96,6 @@ const Realisations = () => {
             </p>
           </a>
         </div>
-
         <div className="realisations__projects" id="clwebProject">
           <a
             href="https://christellelegros-web.fr/"
@@ -62,7 +107,7 @@ const Realisations = () => {
               Création d'un site vitrine en utilisant WordPress (Elementor).
             </p>
           </a>
-        </div>
+        </div> */}
       </div>
     </div>
   );
