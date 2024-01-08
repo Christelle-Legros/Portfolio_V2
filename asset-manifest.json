@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio_V2/static/css/main.14d8fdcd.css",
-    "main.js": "/Portfolio_V2/static/js/main.93e4f0be.js",
+    "main.css": "/Portfolio_V2/static/css/main.b2666ee4.css",
+    "main.js": "/Portfolio_V2/static/js/main.8941d1a9.js",
     "static/media/UrsuiaLever.mp4": "/Portfolio_V2/static/media/UrsuiaLever.d732fe4eb7e9d0aa1333.mp4",
     "static/media/ClWebVisuel.png": "/Portfolio_V2/static/media/ClWebVisuel.2dc7d7b8427e9c2a9f48.png",
     "static/media/QuizDepartementsVisuel.png": "/Portfolio_V2/static/media/QuizDepartementsVisuel.7f0c80d8a94274aa975e.png",
@@ -17,11 +17,11 @@
     "static/media/Gobold_Light.ttf": "/Portfolio_V2/static/media/Gobold_Light.1cb2e63ea3992b472bd4.ttf",
     "static/media/Gobold_Light.woff": "/Portfolio_V2/static/media/Gobold_Light.a0f35cde58ea4f41182b.woff",
     "index.html": "/Portfolio_V2/index.html",
-    "main.14d8fdcd.css.map": "/Portfolio_V2/static/css/main.14d8fdcd.css.map",
-    "main.93e4f0be.js.map": "/Portfolio_V2/static/js/main.93e4f0be.js.map"
+    "main.b2666ee4.css.map": "/Portfolio_V2/static/css/main.b2666ee4.css.map",
+    "main.8941d1a9.js.map": "/Portfolio_V2/static/js/main.8941d1a9.js.map"
   },
   "entrypoints": [
-    "static/css/main.14d8fdcd.css",
-    "static/js/main.93e4f0be.js"
+    "static/css/main.b2666ee4.css",
+    "static/js/main.8941d1a9.js"
   ]
 }
