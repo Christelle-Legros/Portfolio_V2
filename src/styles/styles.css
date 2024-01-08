@@ -245,11 +245,22 @@ a {
     width: 100%;
     height: 100%;
   }
-  .realisations__projects {
-    width: 90%;
-    height: auto;
+  .realisations__projectsContainer_description {
+    max-width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
   }
 }
+.description_tech {
+  color: rgb(175, 172, 172);
+}
+
+.description_title {
+  color: #bfa733;
+  font-weight: bold;
+}
+
 .contact {
   color: rgb(26, 83, 92);
   display: grid;
